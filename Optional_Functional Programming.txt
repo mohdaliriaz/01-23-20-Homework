@@ -1,0 +1,13 @@
+In computer science, functional programming is a programming paradigm—a style of building the structure and elements of computer programs—that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
+
+Functional programming is based on mathematical functions. Some of the popular functional programming languages include: Lisp, Python, Erlang, Haskell, Clojure.
+
+Python is not a functional programming language but it does incorporate some of its concepts alongside other programming paradigms. With Python, it's easy to write code in a functional style, which may provide the best solution for the task at hand.
+
+Functional languages are declarative languages, they tell the computer what result they want. This is usually contrasted with imperative languages that tell the computer what steps to take to solve a problem. Python is usually coded in an imperative way but can use the declarative style if necessary.
+
+Some of Python's features were influenced by Haskell, a purely functional programming language. To get a better appreciation of what a functional language is, let's look at features in Haskell that can be seen as desirable, functional traits:
+
+Pure Functions - do not have side effects, that is, they do not change the state of the program. Given the same input, a pure function will always produce the same output.
+Immutability - data cannot be changed after it is created. Take for example creating a List with 3 items and storing it in a variable my_list. If my_list is immutable, you wouldn't be able to change the individual items. You would have to set my_list to a new List if you'd like to use different values.
+Higher Order Functions - functions can accept other functions as parameters and functions can return new functions as output. This allows us to abstract over actions, giving us flexibility in our code's behavior.
